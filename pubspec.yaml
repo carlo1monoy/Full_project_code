@@ -1,0 +1,58 @@
+name: tm_flutter_app
+description: A new Flutter project
+publish_to: 'none' # Remove this if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📷 Camera plugin (latest major stable)
+  camera: ^0.10.5+9
+
+  # 📊 Chart library
+  fl_chart: ^0.68.0
+
+  # 🔐 Permission manager
+  permission_handler: ^11.3.1
+
+  # 🤖 TensorFlow Lite Flutter binding
+  tflite_flutter: ^0.12.0
+  
+  # 🖼️ Image processing library
+  image: ^4.2.0
+
+  # ✨ Google Fonts for modern typography
+  google_fonts: ^6.2.1
+
+  # 갤러리 Image Picker
+  image_picker: ^1.1.2
+
+  # Other Flutter dependencies
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+
+  # 🔥 Firebase
+  firebase_core: ^2.31.0
+  cloud_firestore: ^4.17.3
+  
+  # 📁 Local storage
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # 🧹 Linting rules for clean code
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/model/labels.txt
+    - assets/model/model_unquant.tflite

@@ -1,0 +1,10 @@
+0 great taste white
+1 Nescafe Original
+2 Kopiko Brown
+3 Energen
+4 Coffee Mate
+5 Kopiko Black
+6 Champion
+7 Kopiko Blanca
+8 Nescafe Creamy White
+9 Greate Taste Choco
